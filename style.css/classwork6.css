@@ -1,0 +1,32 @@
+.position {
+    position: relative;
+    background-color: hotpink;
+    z-index: 10;
+} 
+
+.position div:first-child{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color:tomato ;
+    top: 80px;
+    left: 100px;
+
+}
+
+.position div:last-child{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color:green ; 
+    
+}
+
+.position div:nth-child(2){
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color:black ;
+    z-index: 1;
+}
+

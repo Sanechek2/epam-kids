@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.baner{
+    position: relative;
+}
+
+.baner .text {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.baner .text a {
+    color: aqua;
+    margin: 0 100px;
+}
+
+.text h1{
+    color: indianred;
+    
+}
+
+.baner img{
+    
+    width: 100%;
+    height: 100%;
+
+}
